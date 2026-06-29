@@ -1,0 +1,14 @@
+/* Draftly shared preset: preset-site-scroll.css */
+:root {
+  --scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: var(--scroll-behavior);
+}
+
+/* Optional: section scroll snap container (uncomment if needed) */
+/* html { scroll-snap-type: y proximity; } */
+/* section { scroll-snap-align: start; } */
+
+/* Minimal defaults. Override per-template if needed. */
