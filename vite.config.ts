@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/preset-sites/unleash-scroll-hero/',
+  base: '/',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
